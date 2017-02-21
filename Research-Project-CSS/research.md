@@ -18,7 +18,7 @@ Mobile-first design should still be “responsive” in the way images, text and
 
 ##What is BEM?
 
-BEM stands for Block, Element, Modifier
+BEM is a naming convention for classes in HTML and CSS. It stands for Block, Element, Modifier
 
 ```
 /* Block component */
@@ -31,6 +31,14 @@ BEM stands for Block, Element, Modifier
 .btn--orange {}
 .btn--big {}
 ```
+
+###Why use it
+
+- Easily see how classes are related
+- Allows us to consistently name components
+- If developers consistently use BEM, will be easier to update and add to CSS in future
+
+As a rule, BEM applies to self-contained, discrete parts of the UI.
 
 [Codepen Example](http://codepen.io/team/css-tricks/pen/226a65c8f7d64615aabd45048d1d3b6d)
 
